@@ -1,0 +1,27 @@
+12/19/2012: 12:05 AM
+Finished implementing the CabinetDoorComponents object throughout the entire HWC 2.0 project.
+Need to start working on finishing up the way the CabinetProject object handles all of the 
+CabinetDoors and getting all of the CabinetDoors up and working.
+
+12/27/2012: 8:56 PM
+Having huge troubles with getting the de-serialized ( opened projects ) to show "Saved" data for
+the project specific values. It sets them just fine the first time and can be used but once
+you try to open that file again the data is gone. Might have to serialize the CabinetDoorComponents 
+object for every project file...? Hopefully not.
+
+7/17/2013: 7:24 PM
+Temporarily removed functionality of the following comparators:
+	DoorHeightComparator
+	OpeningWidthComparator
+	OpeningHeightComparator
+	DoorWidthComparator
+	PanelHeightComparator
+	PanelWidthComparator
+
+12/20/2013: 4:00 AM
+Just did some work getting all of the cutlist subclasses almost setup completely. Need to get opening numbers setup and
+linear feet setup for every component. Once this is done I can start to finish building the GUI part of the
+cutlists. Once this is finished and working need to figure out how to do the center rails window, and then 
+the project should be close to finished...? Openings seem to be saving fine, there may be some adjustments
+to the calculations for each piece or something but seems to be closing in on the end once these two things are 
+completed. Also need to get comparators back in working order so the cutlists will be sortable.
